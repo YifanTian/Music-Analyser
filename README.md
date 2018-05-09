@@ -10,14 +10,12 @@ Use pip install -r requirements.txt to install packages.
 1. **play midi**
 Run: </br>
 python tools.py midi_file.mid --play </br>
-
 For example: </br>
 python tools.py anjing.mid --play </br>
 
 2. **plot midi**
 Run: </br>
 python tools.py midi_file.mid --play </br>
-
 For example: </br>
 python tools.py anjing.mid --play </br>
 
@@ -25,14 +23,12 @@ python tools.py anjing.mid --play </br>
 Extract music inforamtion including Unigrams and Bigrams. </br>
 Run: </br>
 python midi_analyser.py midi_file.mid </br>
-
 For example: </br>
 python midi_analyser.py anjing.mid </br>
 
 4. **Generate midi music based on statistical language models**
 Run: </br>
 python midi_generator.py midi_file.mid </br>
-
 For example: </br>
 python midi_generator.py anjing.mid </br>
 
