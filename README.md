@@ -7,26 +7,26 @@ Use pip install -r requirements.txt to install packages.
 
 
 # Tools
-1. **play midi**
+1. **play midi** </br>
 Run: </br>
 python tools.py midi_file.mid --play </br>
 For example: </br>
 python tools.py anjing.mid --play </br>
 
-2. **plot midi**
+2. **plot midi** </br>
 Run: </br>
 python tools.py midi_file.mid --play </br>
 For example: </br>
 python tools.py anjing.mid --play </br>
 
-3. **Basic music analysis**
+3. **Basic music analysis** </br>
 Extract music inforamtion including Unigrams and Bigrams. </br>
 Run: </br>
 python midi_analyser.py midi_file.mid </br>
 For example: </br>
 python midi_analyser.py anjing.mid </br>
 
-4. **Generate midi music based on statistical language models**
+4. **Generate midi music based on statistical language models** </br>
 Run: </br>
 python midi_generator.py midi_file.mid </br>
 For example: </br>
